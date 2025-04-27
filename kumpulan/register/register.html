@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Registrasi Akun</h2>
+    <form id="register-form">
+      <input type="text" id="nama" placeholder="Nama Lengkap" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="tel" id="no_hp" placeholder="Nomor HP" required />
+      <input type="text" id="alamat" placeholder="Alamat" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <input type="password" id="confirm-password" placeholder="Konfirmasi Password" required />
+      <button type="submit">Daftar</button>
+      <div class="link">
+        Sudah punya akun? <a href="/login/login.html">Login</a>
+      </div>
+    </form>
+    <div id="message"></div>
+  </div>
+</body>
+</html>
